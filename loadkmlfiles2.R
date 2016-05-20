@@ -1,5 +1,6 @@
 library(rgdal)
 source('~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/TK_shiny/loaddata2.R', chdir = TRUE)
+saveRDS(dd,"data/today.rds")
 ls()
 head(mydat1)
 dim(mydat1)

@@ -1,6 +1,8 @@
 library(dplyr)
 
-#source()
+source("data/savedate.R")
+
+todaydate<-readRDS("data/today.rds")
 
 allcoords <- readRDS("data/coordsshps.rds")
 

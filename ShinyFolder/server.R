@@ -21,7 +21,8 @@ shinyServer(function(input, output, session) {
     leaflet() %>%
       addTiles(
         urlTemplate = 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-        attribution = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+        attribution = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+        options = tileOptions(maxNativeZoom=17, maxZoom=19)
       ) %>%
       setView(lng = -86.23, lat = 13.5, zoom = 11)%>%
       addProviderTiles("Stamen.TonerLabels")%>%

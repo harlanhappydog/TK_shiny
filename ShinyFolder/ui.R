@@ -1,6 +1,7 @@
 library(shiny)
 library(leaflet)
 
+todaydate<-readRDS("data/today.rds")
 # Choices for drop-downs
 vars <- c(
   "Is SuperZIP?" = "superzip",
@@ -28,7 +29,7 @@ shinyUI(navbarPage(" ", id="nav",
                                 # Shiny versions prior to 0.11 should use class="modal" instead.
                                 absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
                                               draggable = TRUE, top = 60, left = "auto", right = 20, bottom = "auto",
-                                              width = 330, height = 300,
+                                              width = 330, height = 320,
                                               
                                               h2("Taking Root"),
                                               img(src="tr_logo.jpg"),
@@ -41,7 +42,8 @@ shinyUI(navbarPage(" ", id="nav",
                                               h4("Zoom in and click on the coloured areas to meet the farmers on the Interactive Map."),
                                              # h4(paste("Total area currently in projects net of drop outs (in hectares equivalent):",
                                              #           length(allzips)))
-                                              h4("Use the -Data Explorer- to see the data listings.")
+                                              h4("Use the -Data Explorer- to see the data listings."),
+                                             h6(paste("Laste updated:", todaydate))
                                               #plotOutput("histCentile", height = 200),
                                               #plotOutput("scatterCollegeIncome", height = 250)
                                 ),
