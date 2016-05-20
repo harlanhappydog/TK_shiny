@@ -1,5 +1,7 @@
 library(dplyr)
 
+#source()
+
 allcoords <- readRDS("data/coordsshps.rds")
 
 allzips <- readRDS("data/superzip2.rds")
@@ -24,7 +26,7 @@ cleantable <- allzips %>%
 
     LastName = state.x,
 
-    Zipcode = zipcode,
+#    Zipcode = zipcode,
 
 #    Rank = rank,
 

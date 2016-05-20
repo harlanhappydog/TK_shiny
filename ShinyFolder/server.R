@@ -23,7 +23,10 @@ shinyServer(function(input, output, session) {
         urlTemplate = 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
         attribution = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
       ) %>%
-      setView(lng = -86.66, lat = 13.533, zoom = 11)
+      setView(lng = -86.23, lat = 13.5, zoom = 11)%>%
+      addProviderTiles("Stamen.TonerLabels")%>%
+      addProviderTiles("Stamen.TonerLines", options = providerTileOptions(opacity = 0.95)
+      )
   })
   
   # A reactive expression that returns the set of zips that are
@@ -48,13 +51,13 @@ shinyServer(function(input, output, session) {
     if (nrow(zipsInBounds()) == 0)
       return(NULL)
     
-    hist(zipsInBounds()$centile,
-         breaks = centileBreaks,
-         main = "Number of Trees ",
-         xlab = "Percentile",
-         xlim = range(allzips$centile),
-         col = '#00DD00',
-         border = 'white')
+#   hist(zipsInBounds()$centile,
+#         breaks = centileBreaks,
+#         main = "Number of Trees ",
+#         xlab = "Percentile",
+#         xlim = range(allzips$centile),
+#         col = '#00DD00',
+#         border = 'white')
     
     
     
@@ -71,25 +74,25 @@ shinyServer(function(input, output, session) {
   # This observer is responsible for maintaining the circles and legend,
   # according to the variables the user has chosen to map to color and size.
   observe({
-    colorBy <- input$color
-    sizeBy <- input$size
+    #colorBy <- input$color
+    #sizeBy <- input$size
     
-    if (colorBy == "superzip") {
+    #if (colorBy == "superzip") {
       # Color and palette are treated specially in the "superzip" case, because
       # the values are categorical instead of continuous.
-      colorData <- ifelse(zipdata$centile >= (100 - input$threshold), "yes", "no")
-      pal <- colorFactor("Spectral", colorData)
-    } else {
-      colorData <- zipdata[[colorBy]]
-      pal <- colorBin("Spectral", colorData, 7, pretty = FALSE)
-    }
+    #  colorData <- ifelse(zipdata$centile >= (100 - input$threshold), "yes", "no")
+    #  pal <- colorFactor("Spectral", colorData)
+    #} else {
+    #  colorData <- zipdata[[colorBy]]
+    #  pal <- colorBin("Spectral", colorData, 7, pretty = FALSE)
+    #}
     
-    if (sizeBy == "superzip") {
-      # Radius is treated specially in the "superzip" case.
-      radius <- ifelse(zipdata$centile >= (100 - input$threshold), 5123, 3000)
-    } else {
-      radius <- zipdata[[sizeBy]] / max(zipdata[[sizeBy]]) * 5123
-    }
+    #if (sizeBy == "superzip") {
+    #  # Radius is treated specially in the "superzip" case.
+    #  radius <- ifelse(zipdata$centile >= (100 - input$threshold), 5123, 3000)
+    #} else {
+    #  radius <- zipdata[[sizeBy]] / max(zipdata[[sizeBy]]) * 5123
+    #}
   # adding polygons:  
     for(ii in 1:length(allcoords)){
     #for(ii in 1){
@@ -110,20 +113,21 @@ shinyServer(function(input, output, session) {
     
     }
     
-    observe({
-      event <- input$map_shape_click
-      if (is.null(event))
-        return()
-      print(event)      
-    })
+    #observe({
+    #  event <- input$map_shape_click
+    #  if (is.null(event))
+    #    return()
+    #  print(event)      
+    #})
     
     
     leafletProxy("map", data = zipdata) %>%
       #clearShapes() %>%
-     addCircles(~longitude, ~latitude, radius=50, layerId=~zipcode,
-               stroke=FALSE, fillOpacity=0.55, fillColor="blue") %>%
-     addLegend("bottomleft", pal=pal, values=colorData, title=colorBy,
-                layerId="colorLegend")
+     addCircles(~longitude, ~latitude, radius=40, layerId=~zipcode,
+               stroke=FALSE, fillOpacity=0.55, fillColor="red") 
+    #%>%
+    # addLegend("bottomleft", pal=pal, values=colorData, title=colorBy,
+    #            layerId="colorLegend")
   
     
     })
@@ -173,19 +177,19 @@ shinyServer(function(input, output, session) {
                       selected = stillSelected)
   })
   
-  observe({
-    zipcodes <- if (is.null(input$states)) character(0) else {
-      cleantable %>%
-        filter(LastName %in% input$states,
-               is.null(input$cities) | FirstName %in% input$cities) %>%
-        `$`('Zipcode') %>%
-        unique() %>%
-        sort()
-    }
-    stillSelected <- isolate(input$zipcodes[input$zipcodes %in% zipcodes])
-    updateSelectInput(session, "zipcodes", choices = zipcodes,
-                      selected = stillSelected)
-  })
+#  observe({
+#    zipcodes <- if (is.null(input$states)) character(0) else {
+#      cleantable %>%
+#        filter(LastName %in% input$states,
+#               is.null(input$cities) | FirstName %in% input$cities) %>%
+#        `$`('Zipcode') %>%
+#        unique() %>%
+#        sort()
+#    }
+#    stillSelected <- isolate(input$zipcodes[input$zipcodes %in% zipcodes])
+#    updateSelectInput(session, "zipcodes", choices = zipcodes,
+#                      selected = stillSelected)
+#  })
   
   observe({
     if (is.null(input$goto))
@@ -206,12 +210,12 @@ shinyServer(function(input, output, session) {
     df <- cleantable %>%
       filter(
         Area >= input$minScore,
-        Area <= input$maxScore,
-        is.null(input$adultpop) | System %in% input$adultpop
+        Area <= input$maxScore
+       # is.null(input$adultpop) | System %in% input$adultpop
        # is.null(input$cities) | input$cities %in% input$cities,
       #  is.null(input$zipcodes) | input$zipcodes %in% input$zipcodes
       ) %>%
-      mutate(Action = paste('<a class="go-map" href="" data-lat="', Lat, '" data-long="', Long, '" data-zip="', Zipcode, '"><i class="fa fa-crosshairs"></i></a>', sep=""))
+      mutate(Action = paste('<a class="go-map" href="" data-lat="', Lat, '" data-long="', Long,  '"><i class="fa fa-crosshairs"></i></a>', sep=""))
     action <- DT::dataTableAjax(session, df)
     
     DT::datatable(df, options = list(ajax = list(url = action)), escape = FALSE)

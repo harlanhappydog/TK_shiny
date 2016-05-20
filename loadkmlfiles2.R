@@ -1,5 +1,5 @@
 library(rgdal)
-source('~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/loaddata2.R', chdir = TRUE)
+source('~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/TK_shiny/loaddata2.R', chdir = TRUE)
 ls()
 head(mydat1)
 dim(mydat1)
@@ -10,7 +10,7 @@ dim(mydat2)
 
 
 head(mydat2)
-mmm<-readRDS("~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/superzip.rds")
+mmm<-readRDS("~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/TK_shiny/superzip.rds")
 
 mmm3<-mmm[1:dim(mydat2)[1],]
 head(mmm3)
@@ -43,7 +43,7 @@ print(ii)
 for(ii in 1:dim(mydat2)[1]){
 	if(!is.na(mydat2$kml[ii])){
 	download.file(url=as.character(mydat2$kml[ii]), 
-		paste("~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/data/kml_folder/kml_",
+		paste("~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/TK_shiny/data/kml_folder/kml_",
 		mydat2$P_Id[ii],".kml",sep=""))
 		}
 print(ii)
@@ -55,7 +55,7 @@ print(ii)
 
 
 # Get list of all files
-files <- dir('~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/data/kml_folder')
+files <- dir('~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/TK_shiny/data/kml_folder')
 length(files)
 # Set up color index
 cindex <- 1
@@ -68,7 +68,7 @@ coordsmat<-data.frame(files= files,lon=0,lat=0, area=0)
 mycoords<-list()
 i<-1
 for(file in files){
-    lines <- readLines(paste('~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/data/kml_folder/',file,sep=''))
+    lines <- readLines(paste('~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/TK_shiny/data/kml_folder/',file,sep=''))
     lines2 <- lines[1]
     for(jj in 2:length(lines)){
         lines2 <- paste(lines2,lines[jj],sep='')
@@ -102,6 +102,7 @@ sql <- unlist(strsplit(lines2,'<b>Name:</b>|</p><p>'))[3]
 #sql2<-(strsplit(sql,"</b>"))[[1]][2]
 names<-sql
 myarea[i]<-round(area,2)
+mycoords[[i]]$area<-myarea[i]
 mylastnames[i]<-as.character(lastnames)
 mynames[i]<-as.character(names)
 i<-i+1
@@ -125,7 +126,7 @@ mmm3$latitude <-coordsmat$lat
 mmm3$city.x <-mynames
 mmm3$state.x <-mylastnames
 mmm3$adultpop <-mydat2$System
-
+mmm3$zipcode
 
 for(jj in 1:length(mycoords)){
 mycoords[[jj]][,c("planvivo_plot")]<-	names(mycoords)[jj]
@@ -136,9 +137,9 @@ mycoords[[jj]]$zipcode <-mmm3[mmm3$city.y==names(mycoords)[jj],]$zipcode
 head(mmm3)
 #mmm3original<-mmm3
 #mmm3<-mmm3original
-saveRDS(mmm3,"~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/ShinyFolder/data/superzip2.rds")
+saveRDS(mmm3,"~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/TK_shiny/ShinyFolder/data/superzip2.rds")
 
-saveRDS(mycoords,"~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/ShinyFolder/data/coordsshps.rds")
+saveRDS(mycoords,"~/Documents/KahlilShiny/TakingRoot_Shiny1  May19thbackup/TK_shiny/ShinyFolder/data/coordsshps.rds")
 
 
 
