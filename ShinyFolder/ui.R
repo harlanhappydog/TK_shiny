@@ -38,7 +38,7 @@ shinyUI(navbarPage(" ", id="nav",
                                               #                 # Only prompt for threshold when coloring or sizing by superzip
                                               #                 numericInput("threshold", "SuperZIP threshold (top n percentile)", 5)
                                               #),
-                                              h4("Zoom and click on the coloured areas to meet the farmers on the Interactive Map."),
+                                              h4("Zoom in and click on the coloured areas to meet the farmers on the Interactive Map."),
                                              # h4(paste("Total area currently in projects net of drop outs (in hectares equivalent):",
                                              #           length(allzips)))
                                               h4("Use the -Data Explorer- to see the data listings.")
