@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>dc339229-c01b-8c55-55c8-4596da3b111c</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Secundino Antonio</p><p><b>Last Name:</b> Moncada lopez</p><p><b>Plan Vivo Number:</b> 16.2.d16</p><p><b>Area:</b> 14717.5229936191 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.641366289999993,13.506652920000001 -86.642825160000001,13.506300209999999 -86.642620719999996,13.50575211 -86.642067179999998,13.505664189999999 -86.640967140000001,13.5057993 -86.641378099999997,13.506638000000001 -86.641366289999993,13.506652920000001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

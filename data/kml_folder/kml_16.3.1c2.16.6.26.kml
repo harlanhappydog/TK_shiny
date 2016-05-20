@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>26b0eec5-9fae-4452-967e-396bb8277787</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Francisco Javier</p><p><b>Last Name:</b> Vilchez Talavera</p><p><b>Plan Vivo Number:</b> 16.3.1c2</p><p><b>Area:</b> 9350.48944721165 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.140772600000005,13.506289600000001 -86.141148799999996,13.5055371 -86.141557899999995,13.5056651 -86.140709200000003,13.5076444 -86.140628899999996,13.5075065 -86.140717100000003,13.5063177 -86.140772600000005,13.506289600000001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

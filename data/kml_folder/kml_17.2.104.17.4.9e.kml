@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>9ef5f383-8d47-415c-9989-2e52c64c599a</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Asencion</p><p><b>Last Name:</b> Betanco figueroa</p><p><b>Plan Vivo Number:</b> 17.2.104</p><p><b>Area:</b> 22307.9093105222 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.6907049,13.5043504 -86.691060300000004,13.5047996 -86.692307799999995,13.5056143 -86.692868200000007,13.5053248 -86.693030199999995,13.505315599999999 -86.692773099999997,13.5050554 -86.692114900000007,13.5046116 -86.691843700000007,13.504177200000001 -86.691713800000002,13.503626300000001 -86.690901999999994,13.5040323 -86.690974900000001,13.504302300000001 -86.6907049,13.5043504</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

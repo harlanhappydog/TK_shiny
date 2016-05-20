@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>d61602fe-bbb2-3b93-8835-4233a2c33448</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Jose Mercedez</p><p><b>Last Name:</b> Martinez Gutierrez</p><p><b>Plan Vivo Number:</b> 14.2.7da</p><p><b>Area:</b> 26328.5793386775 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.640391719999997,13.52202005 -86.641559150000006,13.520777259999999 -86.642737819999994,13.52136651 -86.642569089999995,13.52190781 -86.642628430000002,13.522407879999999 -86.640396080000002,13.522015769999999 -86.640391719999997,13.52202005</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

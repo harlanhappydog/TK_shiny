@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>a78abe8e-a52e-4e3b-af44-63bc77e4abad</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Natividad  Napolion</p><p><b>Last Name:</b> Trochez  Aguilar</p><p><b>Plan Vivo Number:</b> 16.3.608</p><p><b>Area:</b> 14895.315935614 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.121712900000006,13.480578400000001 -86.121767000000006,13.4808235 -86.120591700000006,13.4815472 -86.122368899999998,13.482125999999999 -86.122411600000007,13.4818788 -86.121821800000006,13.480473 -86.121712900000006,13.480578400000001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

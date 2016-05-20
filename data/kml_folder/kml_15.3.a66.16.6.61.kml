@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>61495db7-dcdb-46d6-a1e0-46ceb7bba2ee</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Sergio Amin</p><p><b>Last Name:</b> Montenegro Briones</p><p><b>Plan Vivo Number:</b> 15.3.a66</p><p><b>Area:</b> 7251.18244299981 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.107430800000003,13.5528412 -86.107939900000005,13.5528253 -86.108165499999998,13.552873200000001 -86.108244999999997,13.552141499999999 -86.107780599999998,13.551744599999999 -86.107394499999998,13.5528098 -86.107430800000003,13.5528412</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>18dfb661-10f6-4ac9-95f8-fda3516f24f7</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Francisco Javier</p><p><b>Last Name:</b> Rodriguez  Espinoza</p><p><b>Plan Vivo Number:</b> 16.3.511</p><p><b>Area:</b> 16160.8932751598 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.163521399999993,13.5256141 -86.1639768,13.526146499999999 -86.163947199999996,13.525354399999999 -86.1640649,13.525155 -86.1632879,13.5244807 -86.163490600000003,13.5238683 -86.163293100000004,13.523164400000001 -86.164009500000006,13.523123699999999 -86.1648134,13.5231347 -86.163521399999993,13.5256141</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>75e2a273-9d4f-47b2-855c-0a1215dc8574</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Maria Concepcion</p><p><b>Last Name:</b> Padilla Cordoba</p><p><b>Plan Vivo Number:</b> 15.3.58c</p><p><b>Area:</b> 5236.93817077031 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.184103399999998,13.506698 -86.183798400000001,13.5060895 -86.183785099999994,13.5060865 -86.183687599999999,13.5077008 -86.184289899999996,13.5069426 -86.1840476,13.5065974 -86.184103399999998,13.506698</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

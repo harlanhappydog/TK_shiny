@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>c9dbe8b7-88de-4918-9ba6-e1b4c6966383</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Joaquin</p><p><b>Last Name:</b> Ponce Rodriguez</p><p><b>Plan Vivo Number:</b> 16.2.80e</p><p><b>Area:</b> 25214.9225655441 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.6469381,13.559680699999999 -86.647215599999996,13.5612978 -86.648558399999999,13.5611637 -86.648299899999998,13.5596911 -86.6469381,13.559680699999999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

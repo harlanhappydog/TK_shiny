@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>be147c16-1966-6463-4800-be1c6898ff07</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Fredy Adolfo</p><p><b>Last Name:</b> Estrada Colindrez</p><p><b>Plan Vivo Number:</b> 16.2.95a</p><p><b>Area:</b> 43862.5137000821 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.673316,13.5773276 -86.674262999999996,13.577454400000001 -86.674262999999996,13.577454400000001 -86.674210000000002,13.580713599999999 -86.673557000000002,13.5802254 -86.672966000000002,13.579605300000001 -86.672835000000006,13.5778994 -86.673316,13.5773276</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

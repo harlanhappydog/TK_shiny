@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>0abfbe33-d88f-f3a7-7d56-c3d137dd954a</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Azucena</p><p><b>Last Name:</b> Rivera</p><p><b>Plan Vivo Number:</b> 16.2.cbd</p><p><b>Area:</b> 9091.15301139682 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.609392339999999,13.557885539999999 -86.609155639999997,13.55762227 -86.608995710000002,13.556733449999999 -86.609405670000001,13.556495569999999 -86.609945379999999,13.55714575 -86.609465349999994,13.557832319999999 -86.609392339999999,13.557885539999999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

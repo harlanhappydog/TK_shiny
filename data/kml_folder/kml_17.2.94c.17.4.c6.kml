@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>c6d13a2c-aa39-410a-b977-f7c1f8f7e104</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Carlos Alberto</p><p><b>Last Name:</b> Reyes figueroa</p><p><b>Plan Vivo Number:</b> 17.2.94c</p><p><b>Area:</b> 23742.1080021067 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.728252800000007,13.506249199999999 -86.729131899999999,13.505779 -86.729504300000002,13.5055107 -86.730619399999995,13.5060997 -86.729914399999998,13.5072698 -86.729849599999994,13.507254 -86.729655199999996,13.507267000000001 -86.729316699999998,13.5066968 -86.728252800000007,13.506249199999999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

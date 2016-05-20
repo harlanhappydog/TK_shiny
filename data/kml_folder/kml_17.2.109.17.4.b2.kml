@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>b23c813c-8ff9-4d87-b207-3083f7265169</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Marvin Antonio</p><p><b>Last Name:</b> Idiaquez Izaguirre</p><p><b>Plan Vivo Number:</b> 17.2.109</p><p><b>Area:</b> 101183.417368752 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.620894199999995,13.494873800000001 -86.622302399999995,13.493879400000001 -86.622791699999993,13.4920141 -86.623331800000003,13.491186900000001 -86.622976199999997,13.490771799999999 -86.620429299999998,13.491733999999999 -86.619453300000004,13.4936658 -86.620894199999995,13.494873800000001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

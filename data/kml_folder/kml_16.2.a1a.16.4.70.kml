@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>7039f35e-db34-4aa1-92e9-113fdd8656b4</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Teresa de Jesus</p><p><b>Last Name:</b> Lopez Gonzalez</p><p><b>Plan Vivo Number:</b> 16.2.a1a</p><p><b>Area:</b> 8495.94048428658 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.553822800000006,13.5073577 -86.552864700000001,13.5076117 -86.552711000000002,13.506826200000001 -86.553035899999998,13.5067153 -86.553332100000006,13.5065364 -86.553822800000006,13.5073577</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

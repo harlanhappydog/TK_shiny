@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>f423200a-418d-41d2-84c6-a3f10e81cfa0</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Domingo de Guzmán</p><p><b>Last Name:</b> Gonzalez</p><p><b>Plan Vivo Number:</b> 15.3.71f</p><p><b>Area:</b> 6116.77269660034 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.086261300000004,13.498646600000001 -86.085829399999994,13.4984637 -86.086140700000001,13.4985546 -86.086191900000003,13.497556599999999 -86.085984300000007,13.4975196 -86.086226199999999,13.497313800000001 -86.086680900000005,13.4977587 -86.086906600000006,13.497915799999999 -86.086733899999999,13.4980595 -86.086218500000001,13.498592800000001 -86.086261300000004,13.498646600000001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

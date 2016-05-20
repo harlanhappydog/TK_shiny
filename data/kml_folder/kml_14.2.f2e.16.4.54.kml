@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>54a7e41c-dfd5-45cc-94a9-5d9c5d095059</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Carlos Adrian</p><p><b>Last Name:</b> Pozo</p><p><b>Plan Vivo Number:</b> 14.2.f2e</p><p><b>Area:</b> 16948.0788693828 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.655876000000006,13.5771552 -86.656086400000007,13.5766589 -86.656333399999994,13.5762315 -86.656536900000006,13.5759525 -86.656187700000004,13.576004299999999 -86.655923400000006,13.576022699999999 -86.655711999999994,13.576057 -86.655372,13.576139599999999 -86.654679400000006,13.5762979 -86.654724799999997,13.576677500000001 -86.654825200000005,13.5770809 -86.655876000000006,13.5771552</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

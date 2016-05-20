@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>905ecd1c-a7df-47cd-98f3-3d439b25edc4</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Mario Alonso</p><p><b>Last Name:</b> Soriano tercero</p><p><b>Plan Vivo Number:</b> 17.2.b09</p><p><b>Area:</b> 11239.162568043 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.704170300000001,13.4665199 -86.703985099999997,13.4667157 -86.703301100000004,13.466966599999999 -86.703099800000004,13.467236099999999 -86.703519799999995,13.467203700000001 -86.704423800000001,13.466918099999999 -86.705149500000005,13.467017 -86.705183199999993,13.4669971 -86.705804999999998,13.466907000000001 -86.704464400000006,13.466324699999999 -86.704170300000001,13.4665199</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

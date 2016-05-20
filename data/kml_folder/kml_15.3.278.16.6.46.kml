@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>4639356e-9543-486b-97fc-153f558ed9b2</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Manuel de Jesus</p><p><b>Last Name:</b> Cruz Chavarria</p><p><b>Plan Vivo Number:</b> 15.3.278</p><p><b>Area:</b> 2764.90484053208 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.153770600000001,13.572168899999999 -86.153249000000002,13.5722465 -86.153086700000003,13.572880899999999 -86.153412900000006,13.5727844 -86.153795000000002,13.5720633 -86.153770600000001,13.572168899999999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

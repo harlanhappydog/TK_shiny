@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>b5d8d6d9-9cca-76c4-afe2-66c846d46606</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Pedro Rafael</p><p><b>Last Name:</b> Carrasco Rivera</p><p><b>Plan Vivo Number:</b> 16.2.77f</p><p><b>Area:</b> 11486.6594956154 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.604599149999999,13.55975797 -86.603085879999995,13.559947409999999 -86.602822020000005,13.559470559999999 -86.603238430000005,13.55944642 -86.604207049999999,13.55894694 -86.604598730000006,13.559749760000001 -86.604599149999999,13.55975797</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

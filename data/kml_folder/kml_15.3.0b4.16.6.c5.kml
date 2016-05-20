@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>c54252d6-93e8-4bf3-ac1f-56f8c0eee5f1</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Santos Ulises</p><p><b>Last Name:</b> Talavera Arauz</p><p><b>Plan Vivo Number:</b> 15.3.0b4</p><p><b>Area:</b> 25467.5531631163 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.148033699999999,13.509730100000001 -86.147576799999996,13.509505799999999 -86.147235899999998,13.509066499999999 -86.146992999999995,13.509109199999999 -86.146414800000002,13.508923599999999 -86.1475966,13.507761500000001 -86.148362399999996,13.5081338 -86.148227899999995,13.5097308 -86.148033699999999,13.509730100000001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

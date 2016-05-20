@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>f353ca3c-0838-4b36-beab-f27588268421</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Justo pastor</p><p><b>Last Name:</b> Mendoza</p><p><b>Plan Vivo Number:</b> 15.3.273</p><p><b>Area:</b> 6219.20692809881 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.161332599999994,13.511639000000001 -86.161572899999996,13.511629599999999 -86.161983500000005,13.5125645 -86.161630000000002,13.5127465 -86.161502900000002,13.5126039 -86.161465399999997,13.51271 -86.161128300000001,13.5120095 -86.161240199999995,13.5119404 -86.161401699999999,13.511726400000001 -86.161332599999994,13.511639000000001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

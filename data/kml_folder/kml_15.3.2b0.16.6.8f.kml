@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>8fbc341a-9bfa-452e-8607-b229c311d2ba</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Guillermo</p><p><b>Last Name:</b> Cerrato</p><p><b>Plan Vivo Number:</b> 15.3.2b0</p><p><b>Area:</b> 2766.62210141456 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.181240099999997,13.480665699999999 -86.180935000000005,13.480617199999999 -86.181026799999998,13.480259500000001 -86.180974699999993,13.4801983 -86.180971200000002,13.4800252 -86.181005600000006,13.4799317 -86.181209199999998,13.4799483 -86.181364299999998,13.4803351 -86.181353400000006,13.480609899999999 -86.181169600000004,13.480608399999999 -86.181240099999997,13.480665699999999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

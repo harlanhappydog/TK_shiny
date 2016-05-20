@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>a33f61b3-41cb-494c-8ccb-287483be0a38</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Martin de Jesus</p><p><b>Last Name:</b> Gonzalez</p><p><b>Plan Vivo Number:</b> 16.2.a59</p><p><b>Area:</b> 28450.5016598481 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.654600099999996,13.5672125 -86.656512899999996,13.566528 -86.656880099999995,13.567921 -86.654951299999993,13.568126899999999 -86.654600099999996,13.5672125</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

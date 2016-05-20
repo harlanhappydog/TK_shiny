@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>3b961dd0-4e66-4f97-bb58-4512571a87a3</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Jose Alejandro</p><p><b>Last Name:</b> Cuadra</p><p><b>Plan Vivo Number:</b> 16.2.2ce</p><p><b>Area:</b> 12188.2349640915 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.689769600000005,13.483472900000001 -86.691662300000004,13.4838521 -86.691686000000004,13.484294800000001 -86.690037599999997,13.4842172 -86.689769600000005,13.483472900000001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>eb42f3be-bb9b-4bd9-a6a9-1a9007a7b2d4</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Juan Ramon</p><p><b>Last Name:</b> Olivera Moncada</p><p><b>Plan Vivo Number:</b> 16.2.748</p><p><b>Area:</b> 37516.0319216718 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.657439800000006,13.5589298 -86.656208399999997,13.5581795 -86.655225999999999,13.5601077 -86.655765299999999,13.560471100000001 -86.656314600000002,13.560726799999999 -86.656637599999996,13.5609869 -86.656824499999999,13.5602529 -86.657147199999997,13.559381699999999 -86.656983100000005,13.559244 -86.657135199999999,13.559127500000001 -86.657439800000006,13.5589298</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

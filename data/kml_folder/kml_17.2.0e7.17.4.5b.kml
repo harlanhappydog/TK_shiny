@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>5bbce124-063e-4fd6-a138-11f31ce7d239</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Ricardo</p><p><b>Last Name:</b> Padilla Godoy</p><p><b>Plan Vivo Number:</b> 17.2.0e7</p><p><b>Area:</b> 7056.58103330406 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.679476100000002,13.4038944 -86.679664200000005,13.40399 -86.679918200000003,13.4046643 -86.679516000000007,13.405370400000001 -86.679186900000005,13.4053635 -86.679374199999998,13.405125999999999 -86.679420100000002,13.4049877 -86.679432899999995,13.4044604 -86.678924499999994,13.404565 -86.679234300000005,13.404336799999999 -86.679476100000002,13.4038944</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

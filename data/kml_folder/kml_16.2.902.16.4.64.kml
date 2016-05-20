@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>64703f5a-3add-408e-9a1e-b97055f9d6b1</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Eddy Salvador</p><p><b>Last Name:</b> Gomez Rueda</p><p><b>Plan Vivo Number:</b> 16.2.902</p><p><b>Area:</b> 23467.6430973624 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.653209599999997,13.5743574 -86.652453199999997,13.5743869 -86.6520151,13.574415999999999 -86.652016900000007,13.5744124 -86.6518789,13.5743881 -86.651892900000007,13.5758169 -86.653161800000007,13.5756066 -86.653546800000001,13.5754749 -86.653209599999997,13.5743574</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

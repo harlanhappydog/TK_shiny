@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>f4fbfee2-dd47-452f-839e-5896774bef94</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Fredis Omar</p><p><b>Last Name:</b> Lopez Herrera</p><p><b>Plan Vivo Number:</b> 17.2.9ea</p><p><b>Area:</b> 20477.1091722311 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.611373700000001,13.5662781 -86.610401899999999,13.566132400000001 -86.609841200000005,13.566308899999999 -86.609120200000007,13.5662349 -86.609133099999994,13.5670017 -86.609628700000002,13.5669471 -86.611370399999998,13.567046599999999 -86.611373700000001,13.5662781</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

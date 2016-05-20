@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>101c15e2-e183-fc61-424b-7e1db77a914e</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Edilver Antonio</p><p><b>Last Name:</b> Carrasco Rivera</p><p><b>Plan Vivo Number:</b> 16.2.b94</p><p><b>Area:</b> 17834.7655618891 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.607985110000001,13.558589619999999 -86.608124410000002,13.558006410000001 -86.608447119999994,13.55762369 -86.608397749999995,13.556817349999999 -86.6089336,13.55670797 -86.609138619999996,13.55759293 -86.609483710000006,13.55791488 -86.608288110000004,13.558734039999999 -86.60800304,13.55859205 -86.607985110000001,13.558589619999999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

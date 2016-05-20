@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>4c50fe22-89c8-4a4e-b1cf-a1d13a37fd5e</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Julian Alfredo</p><p><b>Last Name:</b> Hernandez Gonzalez</p><p><b>Plan Vivo Number:</b> 15.3.202</p><p><b>Area:</b> 870.415667325861 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.124812399999996,13.5716751 -86.124558300000004,13.5718488 -86.124464900000007,13.571902700000001 -86.124848200000002,13.572233600000001 -86.124715100000003,13.571674399999999 -86.124812399999996,13.5716751</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

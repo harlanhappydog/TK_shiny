@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>7d341454-cb38-4d73-b47f-f1f228beaaa4</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Miguel Angel</p><p><b>Last Name:</b> Sandoval palma</p><p><b>Plan Vivo Number:</b> 16.2.0c0</p><p><b>Area:</b> 13590.8839666185 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.657818000000006,13.409753500000001 -86.657721600000002,13.409423500000001 -86.657420500000001,13.409177400000001 -86.656598399999993,13.409607400000001 -86.656612199999998,13.4096479 -86.656673299999994,13.410182799999999 -86.656712299999995,13.410406 -86.656918000000005,13.4106425 -86.657013699999993,13.4105995 -86.657504700000004,13.4102736 -86.657708700000001,13.4099185 -86.657818000000006,13.409753500000001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

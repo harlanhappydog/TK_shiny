@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>b61fbdb8-aa91-473a-8f9f-b6d6e0016ec1</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Luis emilio</p><p><b>Last Name:</b> Alfaro Diaz</p><p><b>Plan Vivo Number:</b> 16.2.e66</p><p><b>Area:</b> 10409.4710881273 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.5633914,13.535995399999999 -86.562693100000004,13.536787 -86.562478200000001,13.5368814 -86.562275,13.5356939 -86.562345199999996,13.535557499999999 -86.5625462,13.535454 -86.5633914,13.535995399999999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

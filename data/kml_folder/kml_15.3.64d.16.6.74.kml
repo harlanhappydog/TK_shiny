@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>74e2a101-5a9a-45ed-a16d-2aa24f703c59</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Carlos Isaias</p><p><b>Last Name:</b> Ruiz Aguirre</p><p><b>Plan Vivo Number:</b> 16.3.64d</p><p><b>Area:</b> 8277.58973211388 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.164256300000005,13.593217299999999 -86.164196599999997,13.593161500000001 -86.164009800000002,13.593302899999999 -86.163890199999997,13.5933329 -86.163895199999999,13.593890500000001 -86.164864800000004,13.5937234 -86.164843200000007,13.5928527 -86.164560499999993,13.5929746 -86.164251100000001,13.5931669 -86.164209999999997,13.593259 -86.164256300000005,13.593217299999999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

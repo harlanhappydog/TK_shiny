@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>bde68649-1a4d-38f9-b8af-012f55998b3f</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Xiomara Francisca</p><p><b>Last Name:</b> Osorio Lagos</p><p><b>Plan Vivo Number:</b> 16.2.83c</p><p><b>Area:</b> 43147.0591396916 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.675446100000002,13.53999965 -86.676812429999998,13.54119893 -86.676988199999997,13.54116415 -86.678059829999995,13.54187988 -86.678279599999996,13.54188055 -86.677996800000003,13.539595139999999 -86.677607289999997,13.5397186 -86.677393129999999,13.53954828 -86.676946290000004,13.53977175 -86.676155789999996,13.53967896 -86.67535608,13.53991156 -86.675434030000005,13.5399849 -86.675446100000002,13.53999965</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+<Placemark>
+<name>124257de-7d1d-455e-8669-d1907498b792</name>
+<description><![CDATA[<p> <img src="" width="100" height="100"></p><p><b>Name:</b> Luis Felipe</p><p><b>Last Name:</b> Romero Vilchez</p><p><b>Plan Vivo Number:</b> 16.2.486</p><p><b>Area:</b> 20245.9431344276 m squared]]></description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-86.630172200000004,13.5400671 -86.629656699999998,13.540787699999999 -86.629097599999994,13.541149799999999 -86.629175000000004,13.5412248 -86.629530599999995,13.541718400000001 -86.629735499999995,13.5417673 -86.631016799999998,13.541723599999999 -86.630172200000004,13.5400671</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</kml>
